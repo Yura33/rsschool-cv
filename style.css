@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+/* body {
+    background: rgb(206, 206, 206);
+} */
+
+.wrapper {
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: rgb(201, 201, 250);
+}
+
+.header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(50, 145, 240);
+    padding: 35px;
+}
+
+.logo {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+.name {
+    font-size: 40px;
+    color: rgb(255, 255, 255);
+}
+
+.section {
+    margin: 40px 0;
+}
+
+.title {
+    padding: 10px 40px;
+    background-color: rgb(158, 188, 228);
+    text-transform: uppercase;
+}
