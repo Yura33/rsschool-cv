@@ -1,0 +1,121 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    line-height: 25px;
+
+}
+
+.wrapper {
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: rgb(214, 214, 253);
+}
+
+.header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(50, 145, 240);
+    padding: 10px;
+}
+
+.logo {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+.name {
+    font-size: 40px;
+    color: rgb(255, 255, 255);
+    line-height: 40px;
+}
+
+.section {
+    margin-top: 37px;
+}
+
+.title {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 7.5%;
+    background-color: rgb(158, 188, 228);
+    text-transform: uppercase;
+}
+
+.info {
+    padding-top: 18px;
+    padding-left: 5%;
+}
+
+.info li {
+    padding-left: 40px;
+    background-size: 23px;
+    list-style: none;
+}
+
+.phone {
+    background: url(./images/phone.png) no-repeat;
+}
+
+.email {
+    background: url(./images/gmail.png) no-repeat;
+}
+
+.skype {
+    background: url(./images/skype.png) no-repeat;
+}
+
+.linkedIn {
+    background: url(./images/linkedin.png) no-repeat;
+    text-decoration: none;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(41, 106, 160);
+}
+
+a:hover {
+    color: rgba(41, 106, 160, 0.7);
+}
+
+.text {
+    padding: 0 30px;
+    margin-top: 15px;
+}
+
+.skills {
+    line-height: 23px;
+    margin-left: 0.83%;
+    margin-top: 15px;
+}
+
+.footer {
+    display: flex;
+    height: 39px;
+    background-color: rgb(70, 130, 180);
+    justify-content: center;
+    align-items: center;
+    margin-top: 37px;
+}
+
+.portfolio {
+    color: rgb(255, 255, 255);
+}
+
+@media (max-width: 480px) {
+    .logo {
+        width: 32vw;
+        height: 32vw;
+    }
+
+    .name {
+        font-size: 5.5vh;
+    }
+
+    .title {
+        font-size: 3.8vh;
+    }
+}
