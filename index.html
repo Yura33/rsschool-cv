@@ -9,28 +9,28 @@
 <body>
     <div class="wrapper">
         <header class="header">
-            <img src="./myfoto.jpg" alt="foto" class="logo">
+            <img src="./images/myfoto.jpg" alt="foto" class="logo">
             <h1 class="name">Yury Kavaliou</h1>
         </header>
         <main>
             <section class="section"> 
                 <h2 class="title">contact information</h2>
-                <ul>
-                    <li class="phone">+375291311741</li>
+                <ul class="info">
+                    <li class="phone">+375 29 131 17 41</li>
                     <li class="email">yurykavaliou86@gmail.com</li>
                     <li class="skype">Yury Kavaliou</li>
-                    <li class="skype">
-                        <a href="https://www.linkedin.com/in/yury-kavaliou-69200a1b3">linkedin.com/in/yury-kavaliou-69200a1b3</a>
+                    <li class="linkedIn">
+                        <a href="https://www.linkedin.com/in/yury-kavaliou-69200a1b3">Yury Kavaliou</a>
                     </li>
                 </ul> 
             </section>
             <section class="section">
                 <h2 class="title">summary</h2>
-                <p>I'm a novice web developer. I really like programming, especially when everything works out. My goal is to learn web technologies to become a great front-end developer.</p>
+                <p class="text">I'm a novice web developer. I really like programming, especially when everything works out. My goal is to learn web technologies to become a great front-end developer.</p>
             </section>
             <section class="section">
                 <h2 class="title">skills:</h2>
-                <ul>
+                <ul class="skills">
                     <li>HTML5</li>
                     <li>CSS3</li>
                     <li>Java Script</li>
@@ -40,30 +40,16 @@
                 </ul>
             </section>
             <section class="section">
-                <h2 class="title">code example</h2>
-                <code>
-                    function createTag(elem, attrs, text) {
-                        const tag = document.createElement(elem);
-                        Object.entries(attrs).forEach(([key, value]) => {
-                            tag.setAttribute(key, value);
-                        });
-                        text ? tag.innerText = text: tag.innerText = '';
-                        
-                        return tag;
-                    }
-                </code>
-            </section>
-            <section class="section">
                 <h2 class="title">education</h2> 
-                <p>2005-2010, Sukhoi State Technical University of Gomel, engineer</p>
+                <p class="text">2005-2010, Sukhoi State Technical University of Gomel, engineer</p>
             </section>
             <section class="section">
                 <h2 class="title">language</h2>
-                <p>English A2</p>
+                <p class="text">English A2</p>
             </section>
         </main>
         <footer class="footer">
-            <p>Homyel 2020</p>
+            <p class="portfolio">Homyel 2020</p>
         </footer>
     </div>
 </body>
