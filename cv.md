@@ -25,3 +25,35 @@ I am a novice web developer. I really like programming, especially when the resu
 - Figma/Photoshop
 - VS Code
 ***
+
+## **Code Example**
+
+```
+function createTag(elem, attrs, text) {
+    const tag = document.createElement(elem);
+    Object.entries(attrs).forEach(([key, value]) => {
+        tag.setAttribute(key, value);
+    });
+    text ? tag.innerText = text: tag.innerText = '';
+    
+    return tag;
+}
+```
+***
+
+## **Work experience**
+
+- [Lagoona - hotel chain](https://yura33.github.io/lagoona/)
+- [authorization form](https://yura33.github.io/myForm/)
+***
+
+## **Education**
+
+2005-2010, Sukhoi State Technical University of Gomel, engineer
+***
+
+## **Language**
+
+- English - A2 (in progress)
+- Russian - native
+- Belarusian - native
