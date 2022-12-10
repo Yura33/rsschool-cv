@@ -4,6 +4,6 @@
 
 [https://yura33.github.io/rsschool-cv/cv](https://yura33.github.io/rsschool-cv/cv)
 
-## RSchool-CV
+## rsschool-CV
 
 [https://yura33.github.io/rsschool-cv/](https://yura33.github.io/rsschool-cv/)
