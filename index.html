@@ -13,7 +13,7 @@
 <body>
     <header class="header">
         <div class="container header__container">
-            <button class="header__burger">
+            <button type="button" class="header__burger">
                 <span class="header__burger-span"></span>
             </button>
             <nav class="nav">
@@ -55,7 +55,7 @@
                 <img class="avatar" src="./img/photo.jpg" alt="avatar">
                 <div class="section__inner-profile">
                     <h1 class="title">Yury Kavaliou</h1>
-                    <h3 class="subtitle">Junior front-end developer</h3>
+                    <h3 class="subtitle">Junior front&#45;end developer</h3>
                 </div>
             </section>
             <section class="section" id="contacts">
@@ -63,11 +63,11 @@
                 <ul class="section__list">
                     <li class="section__item">
                         <h4 class="section__subtitle">Phone</h4>
-                        <a class="section__link" href="tel:+375291311741" target="_blank">+375(29) 131 17 41</a>
+                        <a class="section__link" href="tel:+375291311741" target="_blank">+375&#40;29&#41;&nbsp;131&nbsp;17&nbsp;41</a>
                     </li>
                     <li class="section__item">
                         <h4 class="section__subtitle">Email</h4>
-                        <a class="section__link" href="mailto:yurykavaliou86@gmail.com" target="_blank">yurykavaliou86@gmail.com</a>
+                        <a class="section__link" href="mailto:yurykavaliou86@gmail.com" target="_blank">yurykavaliou86&#64;gmail.com</a>
                     </li>
                     <li class="section__item">
                         <h4 class="section__subtitle">Linkedin</h4>
@@ -86,13 +86,13 @@
             <section class="section" id="skills">
                 <h2 class="section__title">skills</h2>
                 <ul class="section__list">
-                    <li class="section__item">JavaScript(ES6+)</li>
+                    <li class="section__item">JavaScript&#40;ES6+&#41;</li>
                     <li class="section__item">HTML5</li>
-                    <li class="section__item">CSS3/Sass</li>
+                    <li class="section__item">CSS3&#47;Sass</li>
                     <li class="section__item">Adaptive layout</li>
                     <li class="section__item">BEM</li>
                     <li class="section__item">Bootstrap</li>
-                    <li class="section__item">Figma/PhotoShop</li>
+                    <li class="section__item">Figma&#47;PhotoShop</li>
                     <li class="section__item">Git</li>
                     <li class="section__item">VS Code</li>
                 </ul>
@@ -103,10 +103,10 @@
                     <code class="code">
 function createTag(elem, attrs, text) {
   const tag = document.createElement(elem);
-  Object.entries(attrs).forEach(([key, value]) => {
+  Object.entries(attrs).forEach(([key, value]) =&#62; {
   tag.setAttribute(key, value);
   });
-  text ? tag.innerText = text: tag.innerText = '';
+  text ? tag.innerText = text: tag.innerText = &#39;&#39;;
   return tag;
 }
                     </code>
@@ -127,16 +127,16 @@ function createTag(elem, attrs, text) {
                 <h2 class="section__title">courses</h2>
                 <ul class="section__list">
                     <li class="section__item">
-                        <h4 class="section__subtitle">IT-Academy</h4>
-                        <p class="section__descr">Website development with HTML, CSS & JavaScript</p>
+                        <h4 class="section__subtitle">IT&#45;Academy</h4>
+                        <p class="section__descr">Website development with HTML, CSS &amp; JavaScript</p>
                     </li>
                     <li class="section__item">
-                        <h4 class="section__subtitle">IT-Academy</h4>
+                        <h4 class="section__subtitle">IT&#45;Academy</h4>
                         <p class="section__descr">Web application development with JavaScript</p>
                     </li>
                     <li class="section__item">
                         <h4 class="section__subtitle">EPAM Training</h4>
-                        <p class="section__descr">Front-End Development</p>
+                        <p class="section__descr">Front&#45;End Development</p>
                     </li>
                 </ul>
             </section>
@@ -147,9 +147,9 @@ function createTag(elem, attrs, text) {
             <section class="section" id="languages">
                 <h2 class="section__title">languages</h2>
                 <ul class="section__list">
-                    <li class="section__item"><span>English</span> - A2 (in progress)</li>
-                    <li class="section__item"><span>Russian</span> - native</li>
-                    <li class="section__item"><span>Belarusian</span> - native</li>
+                    <li class="section__item"><span>English</span> &#45; A2 &#40;in progress&#41;</li>
+                    <li class="section__item"><span>Russian</span> &#45; native</li>
+                    <li class="section__item"><span>Belarusian</span> &#45; native</li>
                 </ul>
             </section>
         </div>
